@@ -12,7 +12,7 @@ output=sys.argv[2]
 whole_class=["it's","It's","its","Its","you're","You're","they're","They're","loose","Loose","to","To","your","Your","their","Their","lose","Lose","too","Too"]
 dic=defaultdict()
 
-line_ID=20411
+line_ID=0
 
 with open(input,'r') as f:
      f1=f.read().splitlines()
