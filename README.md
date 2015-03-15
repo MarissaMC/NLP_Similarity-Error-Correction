@@ -20,10 +20,13 @@ For example, given a file containing:
 
 Then pour water or light oil from a graduated beaker into the chamber to fill the chamber too its gasket surface. 
 The horses moved at a clump; they were no more on parade than was they're driver; one fork of the road was as good as another. 
+
+
 I will give a corrected text file containing:
 
 Then pour water or light oil from a graduated beaker into the chamber to fill the chamber to its gasket surface.
 The horses moved at a clump; they were no more on parade than was their driver; one fork of the road was as good as another.
+
 
 Because different pair of words have quite different language environment, I deal with the above 5 pairs of words separately. The features I use are: 
    
@@ -33,11 +36,12 @@ And I choose Naive Bayes algorithm to run the model.
 
 Data Source
 -----------------
-The dataset I use is from NLTK gutenberg, which contains several novels. 
+The dataset I used as train dataset is from NLTK gutenberg, which contains several novels. 
 
 Usage
 -----------------
 In the src directory, there are four files:
+
     errlearn_nb.py  # to train data
     errclassify_nb.py # to classify test data
     pos.py  # to get pos file
