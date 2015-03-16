@@ -40,9 +40,6 @@ p_lose2=1-p_lose1
 p_too1=math.log(n_too1/float(n_too1+n_too2))
 p_too2=1-p_too1
 
-## deal with class too
-special1=['n:difficult','n:much','n:many','n:explosive','n:hot','n:complicated','n:big','n:small','n:soon','n:long','n:late','n:early','n:brave']
-special2=['to'] 
 
 class1=["it's","It's","you're","You're","they're","They're","loose","Loose","to","To"]
 class2=["its","Its","your","Your","their","Their","lose","Lose","too","Too"]
@@ -262,9 +259,7 @@ with open(output,'r') as f:
                          word=Too2[too_index]
                       else:
                          word=Too1[too_index] 
-                                           
-                  # print(j0_too,j1_too)                   
-                   #print(n_too1,n_too2) 
+         
 
              sys.stdout.write(word)
              sys.stdout.write(' ')
